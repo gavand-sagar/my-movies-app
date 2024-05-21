@@ -1,0 +1,34 @@
+.movie-tile {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px solid gray;
+  margin: 15px;
+  align-items: center;
+  border-radius: 15px;
+  width: 250px;
+  height: 450px;
+  justify-content: space-between;
+}
+
+.img-div {
+  height: 250px;
+}
+
+.movie-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-details-container>img {
+  flex: 1;
+}
+
+.movie-details-container>div {
+  flex: 1;
+}
+
+.section-heading {
+  background-color: pink;
+  height: 3rem;
+}
